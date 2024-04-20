@@ -9,7 +9,7 @@ const Counter = () => {
       <h1>Count: {count}</h1>
       <button onClick={() => setCount(count + 1)}>Increment</button>
       <input
-        type="text"
+        type="number"
         name="amount"
         value={amount}
         onChange={(e) => setAmount(parseInt(e.target.value))}
