@@ -1,13 +1,15 @@
-import Application from './components/application/application'
+import Counter from './components/counter/counter'
 import './App.css'
 
 function App() {
 
   return (
     <div className='App'>
-      <Application />
+      {/* <Application /> */}
+      <Counter />
     </div>
   )
 }
 
 export default App
+
